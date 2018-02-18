@@ -2,8 +2,32 @@ header {
   background-color: black;
   min-height: 45px;
   border-radius: 15px;
+  max-width: 97%;
+  position: relative;
+  left: 1.5%;
 }
 header .name {
-  font-size: 15pt;
+  font-size: 20pt;
   color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  position: relative;
+  padding: 0.23% 0 0 3%;
+}
+header .name b {
+  color: #FF7C07;
+}
+nav {
+  color: white;
+  max-width: 30%;
+}
+nav ul {
+  margin-top: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(55, 57, 58, 0.45);
+}
+nav ul li {
+  padding-left: 20px;
 }

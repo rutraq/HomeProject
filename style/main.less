@@ -4,8 +4,37 @@ header {
   background-color: black;
   min-height: 45px;
   border-radius: 15px;
+  max-width: 97%;
+  position: relative;
+  left: 1.5%;
+
   .name {
     font-size: @nameFontSize;
     color: @nameFontColor1;
+    font-family: @nameFontFamily;
+    font-weight: bold;
+    position: relative;
+    padding: 0.23% 0 0 3%;
+
+    b {
+      color: @nameFontColor2;
+    }
+  }
+}
+
+nav {
+  color: @nameFontColor1;
+  max-width: 30%;
+
+  ul {
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(55, 57, 58, 0.45);
+
+    li {
+      padding-left: 20px;
+    }
   }
 }
