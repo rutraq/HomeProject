@@ -1,0 +1,9 @@
+header {
+  background-color: black;
+  min-height: 45px;
+  border-radius: 15px;
+}
+header .name {
+  font-size: 15pt;
+  color: white;
+}
