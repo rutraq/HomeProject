@@ -1,38 +1,7 @@
-header {
-  background-color: black;
-  min-height: 45px;
-  border-radius: 15px;
-  max-width: 97%;
-  position: relative;
-  left: 1.5%;
-}
-header .name {
-  font-size: 20pt;
-  color: white;
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
-  position: relative;
-  padding: 0.23% 0 0 3%;
-}
-header .name b {
+a[href="main.html"] {
   color: #FF7C07;
+  font-size: 18pt;
 }
-nav {
-  color: white;
-  max-width: 30%;
-  position: relative;
-  left: 2%;
-}
-nav ul {
-  margin-top: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  background: #eee;
-}
-nav ul li {
-  padding-left: 20px;
-}
-nav ul li:hover {
-  background: #ddd;
+#afisha {
+  background: white;
 }

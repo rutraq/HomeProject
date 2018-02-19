@@ -1,46 +1,10 @@
 @import "variables";
-header {
 
-  background-color: black;
-  min-height: 45px;
-  border-radius: 15px;
-  max-width: 97%;
-  position: relative;
-  left: 1.5%;
-
-  .name {
-    font-size: @nameFontSize;
-    color: @nameFontColor1;
-    font-family: @nameFontFamily;
-    font-weight: bold;
-    position: relative;
-    padding: 0.23% 0 0 3%;
-
-    b {
-      color: @nameFontColor2;
-    }
-  }
+a[href="main.html"] {
+  color: @nameFontColor2;
+  font-size: @navFontSize;
 }
 
-nav {
-  color: @nameFontColor1;
-  max-width: 30%;
-  position: relative;
-  left: 2%;
-
-  ul {
-    margin-top: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    background: @backgroundSpis;
-
-    li {
-      padding-left: 20px;
-
-      &:hover {
-        background: @backgroundSpisHover;
-      }
-    }
-  }
+#afisha {
+  background: white;
 }
