@@ -25,16 +25,22 @@ header {
 nav {
   color: @nameFontColor1;
   max-width: 30%;
+  position: relative;
+  left: 2%;
 
   ul {
     margin-top: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    background-color: rgba(55, 57, 58, 0.45);
+    background: @backgroundSpis;
 
     li {
       padding-left: 20px;
+
+      &:hover {
+        background: @backgroundSpisHover;
+      }
     }
   }
 }
